@@ -1,10 +1,20 @@
+
+#particles-js {
+  background:$white-color;
+  z-index:0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+}
+
 #hero {
   min-height: 100vh;
   height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background:none;
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -13,9 +23,9 @@
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
-
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
+  z-index: 10;
+  position: relative;
+    // If you want to set a background image on the hero section, uncomment these with yout custom image
 
   /* background: url("/src/assets/[your-image].png");
   background-position: center;

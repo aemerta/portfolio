@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,11 +7,11 @@
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Alfi Aulia Rahman | Web Design Portfolio</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Alfi Aulia Rahman | Web Designer" />
 
     <!-- Required librarys -->
     <link
@@ -34,27 +23,37 @@
       ScrollReveal({ reset: false });
     </script>
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
+    <!-- Particles scripts -->
+ 
     <div id="top"></div>
+    <div id="particles-js"> </div>
+
 
     <!-- **** Hero Section **** -->
     <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
-          <br />
-          I'm the Unknown Developer.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-        </p>
-      </div>
+        <div class="container">
+          <h1 class="hero-title" class="load-hidden">
+            Hi! I'm <span class="text-color-main">Alfi</span>,
+            <br />
+            <span class="text-color-main">the web designer </span> that you'll love <br /> to work with.
+          </h1>
+          <p class="hero-cta" class="load-hidden">
+            <a class="cta-btn cta-btn--hero" href="#about">Get to know me</a>
+          </p>
+          <p class="hero-cta" class="load-hidden">
+            <a class="cta-btn cta-btn--hero" href="#projects">Peek my portfolio</a>
+          </p>
+        </div>
     </div>
+
+
+ 
+
     <!-- /END Hero Section -->
 
     <!-- **** About Section **** -->
@@ -63,31 +62,35 @@
         <h2 class="section-title">
           About me
         </h2>
-        <div class="row about-wrapper">
+        <div class="row about-wrapper"> <!--Row 1 start-->
+          <!--Image Col-->
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
               <img
                 class="img-fluid rounded shadow-lg"
                 height="auto"
-                width="300px"
+                width="370px"
                 src="./assets/profile.jpg"
                 alt="Profile Image"
               />
             </div>
-          </div>
+          </div> <!--Image Col Ends-->
+          <!--Text Col-->
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
+               Thanks for checking me out, my name is Alfi Aulia Rahman currently working as a freelance web designer.
+               I'm originally from Indonesia but right now I'm living in Bergen, Norway.
               </p>
+
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
+                Maybe I'm not like the most of web designer that you'll find (those who only care about aesthetics),
+                I care and seek to understand your business needs and goals.  
+              </p>
+
+              <p class="about-wrapper__info-text">
+                My curiosity and desire to learn has given me a broad knowledge and experience in entrepreneurship, sales, web development and design. 
+                These knowledges and experiences are my arsenals to assist you achieving your digital success. 
               </p>
               <span class="d-flex mt-3">
                 <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
@@ -95,8 +98,59 @@
                 </a>
               </span>
             </div>
+          </div> <!--Text Col Ends-->
+        </div> <!--Row 1 Ends-->
+
+        <div id="coreskills" class="container"> <!--row2-->
+          <div class="row">
+            <div class="col">
+              <h3 class="section-title">My Core Skills</h3>    
+            </div>        
           </div>
-        </div>
+  
+          <div class="row about-wrapper-skills">
+            <div class="col-lg-4">
+              <p class="about-wrapper__info-text">
+                <span class="font-weight-bold">Web design :</span> 
+              </p>
+              <ul class="about-wrapper__info-text">
+                <li>Design Thinking</li>
+                <li>Digital Persuassion Techniques</li>
+                <li>Understanding of Information Architecture Concepts</li>
+                <li>Creating Lo-Fi / Hi-Fi design and prototyping with Figma/AdobeXd</li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4">
+              <p class="about-wrapper__info-text">
+                <span class="font-weight-bold">Web development :</span> 
+              </p>
+              <ul class="about-wrapper__info-text">
+                <li>HTML, CSS, javascript</li>
+                <li>ReactJs, Redux, NextJs</li>
+                <li>NodeJs,  SQL, PHP, Git</li>
+                <li>Wordpress  Implementation</li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4">
+              <p class="about-wrapper__info-text">
+                <span class="font-weight-bold">Digital Marketing :</span>
+              </p>
+              <ul class="about-wrapper__info-text">
+                <li>Design graphic</li>
+                <li>Video production & Editing</li>
+                <li>Content marketing strategy</li>
+                <li>Google Analytics</li>
+                <li>E-mail marketing automation</li>
+                <li>Clickfunnel</li>
+              </ul>
+            </div>
+        </div> <!--row2 ends-->
+       
+
+  
+
       </div>
     </section>
     <!-- /END About Section -->
@@ -105,37 +159,40 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
+          <h2 class="section-title dark-blue-text" style="margin-bottom: 100px;">
+            Some of My Cool Projects
           </h2>
 
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">Agus Lifework : Personal Branding Site for Indonesian Top CEO </h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A personal brand helps determine who you are and where you are going. Without clear direction,
+                    you might get stuck in your current path. In addition to that, having a strong personal brand 
+                    will also attract unexpected opportunities.
+                  </p>
+                  <p class="mb-4">
+                    Mr. Syabarrudin, an award winning CEO in Indonesia, 
+                    understands this very well and he trusted me to design and develop a website where he can share his stories and his visions to the world.  
+                    This website also serves as his digital CV. 
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://aguslifework.com/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <!-- <a target="_blank" class="cta-btn text-color-main" href="#!">
                   Source Code
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://aguslifework.com/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/project1.png" />
                   </div>
                 </a>
               </div>
@@ -147,29 +204,41 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">Elisabeth Breathwork : Online Coaching and E-learning Site</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Elisabeth Finocchiaro is one of the top breathwork coach based in Norway. 
+                    She has organized hundreds of live events and helped of a lot of people improve their lives
+                     by teaching them breathing techniques.
+                  </p>
+                  <p class="mb-4">
+                    Having creative and open minded nature she saw big opportunities in digitalizing her coaching business.
+                    She trusted me to design and develop a beautiful website packed with a critical features to support her business.
+                  </p>
+                  <p class="mb-4">
+                    Apart for being a "digital HQ" for her business, this website also serve as her sales funnel where she can qualify, sell, retrieve payment, and deliver 
+                    digital products she sells automatically. The website also has member only page which is a learning platform 
+                    for her students who bought her courses.   
+                  </p>
+                  <p class="mb-4">
+                    The Online courses that she launched for her audiences through the website have made it possible
+                    for her to keep generating good amount of revenue for her business despite of COVID-19 crisis. 
+                  </p>
+                  <p class="mb-4">
+                    <a target="_blank" href="https://youtu.be/9JSbuowoH-0" style="text-decoration:underline;"> you can hear the testimonial about her experience working with me here </a>
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://elisabethbreathworkandcoaching.com/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
               </div>
+         
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://elisabethbreathworkandcoaching.com/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/project2.png" />
                   </div>
                 </a>
               </div>
@@ -181,35 +250,77 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">Bethany Gynecology Clinic : Brochure Site</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Bethhany Gynecology Clinic is a safe place for women
+                    to embrace their "choice" without afraid being judged. 
+                    To get more women know about this place, having a strong digital presence is vital.
+                  </p>
+                  <p class="mb-4">
+                    Having a simple brochure website can help to achieve just that. 
+                    It can also conveys more detailed informations that visitors might need.                    
+                  </p>
+                  <p class="mb-4">
+                    This website is designed to establish trust and encourage visitor to get free consultation.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://aemerta.github.io/bethanygynecology/">
                   See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://aemerta.github.io/bethanygynecology/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/project3.png" />
                   </div>
                 </a>
               </div>
             </div>
           </div>
           <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Fantoft Stavkirke : Brochure Site</h3>
+              <div>
+                <p class="mb-4">
+                  Fantoft Stavkirke is a unique wooden church decorated with Viking's ornaments
+                  and carvings built in 12th century. It has been a popular touristic destination in Bergen.
+
+                </p>
+
+                <p class="mb-4">
+                  The Website that I designed and developed helps the future tourist by containing all
+                   important information that they might need to know while planning their trip.
+                </p>
+
+                <p class="mb-4">
+                  Not only that, a small element of persuasion has also been putted in this 
+                   website to convince the web visitor to come.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://aemerta.github.io/fantoftstavkirke/">
+                See Live
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://aemerta.github.io/fantoftstavkirke/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project4.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
         </div>
       </div>
     </section>
@@ -219,17 +330,21 @@
     <section id="contact">
       <div class="container">
         <h2 class="section-title">
-          Contact
+          Let's make your website!
         </h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">
-            [Put your call to action here]
+            If you want to talk about a project or just want to get in touch, you can use the chat box in the corner.
+            I'm open for new projects and opportunities.
+          </p>
+          <p>
+            or if you prefer, you can send me an email to this address: 
           </p>
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"
             href="mailto:example@email.com"
-            >Call to Action</a
+            >alfi@startmysunday.com</a
           >
         </div>
       </div>
@@ -242,14 +357,15 @@
         <a href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
+        <h2>Let's be friends:</h2>
         <div class="social-links">
           <a href="#!" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
+          <a href="https://www.instagram.com/aemerta/" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
           </a>
-          <a href="#!" target="_blank">
+          <a href="https://www.linkedin.com/in/aemerta/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a href="#!" target="_blank">
@@ -259,35 +375,15 @@
 
         <hr />
 
-        <!-- If you give me some credit, will be huge for me :) -->
         <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
+          © 2020 - Alfi Aulia Rahman
           </a>
         </p>
 
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
     <!-- /END Footer Section -->
+
+
   </body>
 </html>

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
+
 h1 {
   font-weight: 700;
 }
 
 p,
-a {
+a,
+li {
   font-family: 'Montserrat', sans-serif;
   font-size: $default-font-size;
 }
@@ -34,6 +36,19 @@ a:hover {
   }
 }
 
+.section-subtitle {
+  margin: 0px;
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  font-size: $mid-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: 1.7rem;
+  }
+}
+
 .dark-blue-text {
   color: $dark-blue-text !important;
 }
@@ -44,7 +59,7 @@ a:hover {
   // Responsive text purple style
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $secondary-color;
+    -webkit-text-fill-color: $third-color;
   }
 
   &:hover {

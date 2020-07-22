@@ -51,6 +51,13 @@ export default function() {
       }, defaultProps)
   );
 
+  ScrollReveal().reveal('.about-wrapper-skills', 
+  assignProps(
+    {
+      delay: 600,
+      origin: 'bottom'
+    }, defaultProps)
+);
   /* Projects Section */
   ScrollReveal().reveal('.project-wrapper__text', 
     assignProps(
