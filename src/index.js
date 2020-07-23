@@ -4,6 +4,7 @@ import './style/main.scss';
 import particles from './js/particles';
 import app from './js/app';
 import tawk from './js/tawk';
+import hotjar from './js/hotjar';
 
 $('a[href^="#"]').on('click', function(event) {
   var target = $(this.getAttribute('href'));
@@ -27,3 +28,4 @@ initTilt();
 particles();
 app();
 tawk();
+hotjar();
